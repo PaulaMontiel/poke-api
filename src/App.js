@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App d-flex flex-column">  
       <MyPokeContext.Provider value={{poke,setPoke}}>
-        <BrowserRouter>
+        <BrowserRouter basename="poke-api">
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
