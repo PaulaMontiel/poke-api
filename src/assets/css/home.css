@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.home-foto{
+    width: 800px ;
+    height:500px;
+    display: flex;
+}
+.title-home{
+    margin: 2em;
+}

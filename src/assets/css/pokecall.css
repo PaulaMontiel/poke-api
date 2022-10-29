@@ -1,0 +1,16 @@
+.pokegallery{
+    gap: 2em;
+}
+.poke-button{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 5px;
+    background-color: 	#DC143C	;
+    background-image: url('../img/button.png');
+    background-size: cover;
+    color: yellow;
+    font-size: 25px;
+    -webkit-text-stroke:#000080 1px;
+}
